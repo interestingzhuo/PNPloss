@@ -49,9 +49,9 @@ online_products
 Assuming your folder is placed in e.g. `<$datapath/sop>`, pass `$datapath` as input to `--source`.
 
 ### Training:
-Training is done by using `main.py` and setting the respective flags, all of which are listed and explained in `parameters.py`. A vast set of exemplary runs is provided in `Revisit_Runs.sh`.
+Training is done by using `main.py` and setting the respective flags, all of which are listed and explained in `parameters.py`.
 
-**[I.]** **A basic sample run using the best parameters would like this**:
+**A basic sample run using the best parameters would like this**:
 
 ```
 python main.py --loss PNP  --seed 0 --bs 384 --data_sampler class_random --samples_per_class 4 --arch resnet50_frozen_normalize --source ../retrieval_dataset --n_epochs 400 --lr 1e-5 --embed_dim 512 --evaluate_on_gpu --dataset online_products --variant PNP-D_q --alpha 4
