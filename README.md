@@ -57,3 +57,13 @@ Training is done by using `main.py` and setting the respective flags, all of whi
 ```
 python main.py --loss PNP  --seed 0 --bs 384 --data_sampler class_random --samples_per_class 4 --arch resnet50_frozen_normalize --source ../retrieval_dataset --n_epochs 400 --lr 1e-5 --embed_dim 512 --evaluate_on_gpu --dataset online_products --variant PNP-D_q --alpha 4
 ```
+## Paper
+If you find this work useful, please consider citing:
+```
+@InProceedings{Zhuo2022,
+  author       = "Zhuo Li, Weiqing Min, Jiajun Song, Yaohui Zhu, Liping Kang, Xiaoming Wei, Xiaolin Wei, Shuqiang Jiang",
+  title        = "Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones is Enough",
+  booktitle    = "AAAI Conference on Artificial Intelligence (AAAI 2022)",
+  year         = "2022",
+}
+```
