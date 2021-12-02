@@ -8,6 +8,7 @@ This repository contains all code and implementations used in:
 ```
 Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones is Enough
 ```
+accepted to AAAI 2022
 
 ### Requirements:
 
