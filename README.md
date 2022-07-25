@@ -60,10 +60,16 @@ python main.py --loss PNP  --seed 0 --bs 384 --data_sampler class_random --sampl
 ## Paper
 If you find this work useful, please consider citing:
 ```
-@InProceedings{Zhuo2022,
-  author       = "Zhuo Li and Weiqing Min and Jiajun Song and Yaohui Zhu and Liping Kang and Xiaoming Wei and Xiaolin Wei and Shuqiang Jiang",
-  title        = "Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones is Enough",
-  booktitle    = "AAAI Conference on Artificial Intelligence (AAAI 2022)",
-  year         = "2022",
+@article{Li_Min_Song_Zhu_Kang_Wei_Wei_Jiang_2022, 
+title={Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones Is Enough}, 
+volume={36}, 
+url={https://ojs.aaai.org/index.php/AAAI/article/view/20042}, 
+DOI={10.1609/aaai.v36i2.20042}, 
+number={2}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Li, Zhuo and Min, Weiqing and Song, Jiajun and Zhu, Yaohui and Kang, Liping and Wei, Xiaoming and Wei, Xiaolin and Jiang, Shuqiang}, 
+year={2022}, 
+month={Jun.}, 
+pages={1518-1526} 
 }
 ```
