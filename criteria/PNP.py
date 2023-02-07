@@ -74,7 +74,7 @@ class Criterion(torch.nn.Module):
             neg_divide = torch.sum(sim_all_rk[(ind * group):((ind + 1) * group), (ind * group):((ind + 1) * group)])
             
             loss = loss + ((neg_divide / group) / self.batch_size)
-        if self.variant == 'reci':
+        if  self.variant == 'PNP-D_q':
             return 1 - loss
         else:
             return loss
