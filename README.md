@@ -1,6 +1,13 @@
 # PNP Loss in PyTorch
 
 ---
+---
+##  What's New
+
+* 2023-04-05: Major updates include:
+    * Added PNPLoss to [PML(Pytorch Metric Learning)](https://github.com/KevinMusgrave/pytorch-metric-learning).
+
+
 ## What can I find here?
 
 This repository contains all code and implementations used in:
