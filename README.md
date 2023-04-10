@@ -1,7 +1,6 @@
 # PNP Loss in PyTorch
 
 ---
----
 ##  What's New
 
 * 2023-04-05: Major updates include:
