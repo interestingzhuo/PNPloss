@@ -1,4 +1,4 @@
-# PNP Loss in PyTorch
+# Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones is Enough
 
 ---
 ##  What's New
